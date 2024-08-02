@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.latest-match-card-container {
+    background-color: #0f172a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .latest-match-team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .latest-match-bg-container {
+    width: 100%;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .competing-team-head {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Bree serif';
+  }
+  .head {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Bree serif';
+  }
+  
+  .latest-match-date {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .latest-match-venue {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Bree serif';
+  }
+  .latest-match-result {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Bree serif';
+  }
+  .match-head {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Bree serif';
+  }
+  .match-des {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Bree serif';
+  }
+  .competing-team-logo {
+    height: 100px;
+  }
+  .h-line {
+    width: 100%;
+  }
+  @media (max-width: 576px) {
+    .latest-match-card-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .h-line {
+      display: none;
+    }
+    .competing-team-head {
+      font-size: 1.2rem;
+    }
+    .latest-match-date {
+      font-size: 1.1rem;
+    }
+    .head {
+      font-size: 1rem;
+    }
+    .latest-match-venue {
+      font-size: 0.8rem;
+    }
+    .latest-match-result {
+      font-size: 0.8rem;
+    }
+    .match-head {
+      font-size: 0.8rem;
+      text-align: end;
+    }
+    .match-des {
+      font-size: 0.7rem;
+      text-align: end;
+    }
+    .latest-match-team-container {
+      width: 65%;
+    }
+  }
+  

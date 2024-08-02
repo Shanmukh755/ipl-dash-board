@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.team-matches-bg-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .RCB {
+    background: linear-gradient(to top, #1e293b, #a4261d);
+  }
+  
+  .KKR {
+    background: linear-gradient(to top, #1e293b, #5755a7);
+  }
+  
+  .KXP {
+    background: linear-gradient(to top, #1e293b, #d91c1f);
+  }
+  
+  .CSK {
+    background: linear-gradient(to top, #1e293b, #f7db00);
+  }
+  
+  .RR {
+    background: linear-gradient(to top, #1e293b, #da237b);
+  }
+  
+  .MI {
+    background: linear-gradient(to top, #1e293b, #13418b);
+  }
+  .SH {
+    background: linear-gradient(to top, #1e293b, #f26d22);
+  }
+  .DC {
+    background: linear-gradient(to top, #1e293b, #4f5db0);
+  }
+  .team-matches-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+  .team-banner {
+    width: 100%;
+    padding: 2rem;
+  }
+  .team-matches-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  

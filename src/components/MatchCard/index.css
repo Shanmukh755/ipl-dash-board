@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.match-card-bg-container {
+    background-color: #0f172a;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .recent-match-image {
+    height: 50px;
+  }
+  .recent-match-head {
+    font-family: 'Bree seif';
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .recent-match-result {
+    font-family: 'Bree seif';
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .won-color {
+    font-family: 'Bree seif';
+    color: #18ed66;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .loss-color {
+    font-family: 'Bree seif';
+    color: #e31a1a;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 576px) {
+    .match-card-bg-container {
+      width: 30%;
+    }
+  }
+  
